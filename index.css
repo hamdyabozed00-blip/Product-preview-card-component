@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins";
+    font-weight: 100;
+
+}
+body {
+    background-color: rgb(244, 228, 208);
+}
+.perfume {
+    display: flex;
+    margin: 250px 300px 200px 500px;
+    align-items: center;
+}
+.right {
+    margin: 25px;
+    background-color: white;
+    border-radius: 10px;
+    width: 300px;
+    height: 500px;
+    margin: 4px 0 0 0;
+}
+.right h4 {
+     color: rgb(179, 177, 177);
+     font-family: sans-serif;
+     font-weight: bold;
+     margin: 30px;
+}
+.right .word1 {
+    font-size: 40px;
+    width: 100%;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 0 25px;   
+}
+.right .word2 {
+    color: rgb(139, 139, 139);
+    width: 90%;
+    padding: 10px 10px 20px  25px;
+    font-weight: bold;
+    
+}
+.right .price {
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 25px;
+}
+.right .price .dollar {
+    color: green;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-right: 50px;
+}
+.right .price del {
+    color: rgb(107, 107, 107);
+    font-weight: bold;
+}
+.right .add {
+    text-decoration: none;
+    color: white;
+    background-color: green;
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    margin: 30px;
+    border-radius: 15px;
+    transition: .3s ease;
+    
+} 
+.right .add1 {
+    margin-top: 20px;
+}
+.right .add1  :hover {
+    color: black;
+    transform: scale(1.1);
+}
+
+.right .add i ,span {
+    padding: 15px;
+    
+}
+.right .add span {
+    font-family: sans-serif;
+}
+
+
+
+
+.photo {
+width: 300px;
+height: 500px;
+border-radius: 10px;
+}
+
+
